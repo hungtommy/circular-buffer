@@ -51,7 +51,7 @@ cbStatus cbWrite(circularBuffer * cb, elemType elem)
 			cb->write = 0;
 		}
 		
-		return SUCCESS;
+		return CIRCULAR_BUFFER_SUCCESS;
 	}
 }
 
@@ -76,7 +76,7 @@ cbStatus cbRead(circularBuffer * cb, elemType * elem)
 			cb->read = 0;
 		}
 		
-		return SUCCESS;
+		return CIRCULAR_BUFFER_SUCCESS;
 	}
 }
 
