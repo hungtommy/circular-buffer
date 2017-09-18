@@ -14,7 +14,7 @@ typedef struct {
 }circularBuffer;
 
 typedef enum {
-	SUCCESS,
+	CIRCULAR_BUFFER_SUCCESS,
 	CIRCULAR_BUFFER_IS_EMPTY,
 	CIRCULAR_BUFFER_IS_FULL
 }cbStatus;
